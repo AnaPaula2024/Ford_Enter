@@ -1,0 +1,18 @@
+   /*classes*/
+   .ptamanho {
+       font-size: 16pt;
+   }
+
+   .pcor {
+       color: #45fa78;
+       font-size: 15pt;
+   }
+
+   /*id*/
+   #ttamanho {
+       font-size: 26pt;
+   }
+
+   #tcor {
+       color: brown;
+   }
