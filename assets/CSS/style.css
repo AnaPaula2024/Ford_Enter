@@ -1,18 +1,95 @@
-   /*classes*/
-   .ptamanho {
-       font-size: 16pt;
-   }
+/* Estilização da página index*/
+.center {
+    text-align: center;
+}
 
-   .pcor {
-       color:  #00ff00;
-       font-size: 15pt;
-   }
+.titulo {
+    font-size: 35pt;
+    color: linen;
+    font-family: cursive;
+}
 
-   /*id*/
-   #ttamanho {
-       font-size: 26pt;
-   }
+.justify {
+    text-align:justify;
+}
 
-   #tcor {
-       color: brown;
-   }
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu2 {
+    font: 20px;
+    padding: 25pt;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: papayawhip;
+    font: 30px;
+    font-family: cursive;
+}
+
+#menu li a:hover {
+    color: red;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+br-50 {
+    border-radius: 50%;
+}
+
+.foto {
+    transition: all .5s;
+    border: 10 px solid #eeeeee;
+}
+
+.foto:hover {
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 7px 1px rgba(0, 0, 0, .5));
+    transform: rotate(-360deg) scale(1.5);
+}
+
+.fundo {
+    background-image: url(../imagem/fundo1.jpg.png);
+}
+
+.texto {
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilo da página contato */
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+.ml-50{
+    margin-left: 50px;
+}
+
+.rs1{
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.rs1:hover{
+    -webkit-filter: drop-shadow(10px 10px 5px rgba(255, 0,0,.5));
+    filter: drop-shadow(10px 10px 5px(0,0,0,.5) );
+    transform: rotate(-360deg);
+}
+>>>>>>> 4efa27e (meu projeto)
