@@ -10,7 +10,7 @@
 }
 
 .justify {
-    text-align:justify;
+    text-align: justify;
 }
 
 .container {
@@ -45,13 +45,18 @@
     padding: 30px;
 }
 
-br-50 {
+.br-50 {
     border-radius: 50%;
+}
+
+.wh-300 {
+    width: 300px;
+    height: 300px;
 }
 
 .foto {
     transition: all .5s;
-    border: 10 px solid #eeeeee;
+    border: 10px solid #eeeeee;
 }
 
 .foto:hover {
@@ -78,18 +83,18 @@ br-50 {
     height: 50px;
     display: inline;
 }
-.ml-50{
+
+.ml-50 {
     margin-left: 50px;
 }
 
-.rs1{
+.rs1 {
     transition: all .5s;
     cursor: pointer;
 }
 
-.rs1:hover{
-    -webkit-filter: drop-shadow(10px 10px 5px rgba(255, 0,0,.5));
-    filter: drop-shadow(10px 10px 5px(0,0,0,.5) );
+.rs1:hover {
+    -webkit-filter: drop-shadow(10px 10px 5px rgba(255, 0, 0, .5));
+    filter: drop-shadow(10px 10px 5px(0, 0, 0, .5));
     transform: rotate(-360deg);
 }
->>>>>>> 4efa27e (meu projeto)
