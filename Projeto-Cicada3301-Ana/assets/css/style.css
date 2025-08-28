@@ -1,0 +1,24 @@
+.fundo {
+    background-image: url(../img/cicada-3301-sticker.jpg);
+}
+
+#menu {
+    background-color: black;
+    align-content: end;
+
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+    align-items: center;
+
+}
+
+#menu li a {
+    text-decoration: none;
+    color: red;
+    font: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
